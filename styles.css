@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+
+.game-container {
+    margin-top: 50px;
+}
+
+#attack-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#attack-button:hover {
+    background-color: #ff4500;
+}
+
+#health-bar {
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    background-color: #f00;
+}
